@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SoliviaPage } from "@/components/SoliviaPage";
 import { parts } from "@/content/solivia.parts";
-import productsHeroBg from "@/assets/products-hero-clean-v2.png.asset.json";
+
+const productsHeroBg = { url: "/assets-solivia/products-hero-clean-v2.png" };
 
 export const Route = createFileRoute("/products")({
   head: () => ({
