@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SoliviaPage } from "@/components/SoliviaPage";
 import { parts } from "@/content/solivia.parts";
 
-const productsHeroBg = { url: "/assets-solivia/products-hero-clean-v2.png" };
+const productsHeroBg = { url: "/assets-solivia/products-hero-clean-v2.webp" };
 
 export const Route = createFileRoute("/products")({
   head: () => ({
